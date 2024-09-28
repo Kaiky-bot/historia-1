@@ -1,0 +1,146 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+
+    <title>O Mistério das Ruínas de Eldoria</title>
+
+</head>
+
+<body>
+
+   <main>
+
+       <div class="passo ativo" id="passo-0">
+
+         <img src="img/cenario-passo0.png" alt="">  
+
+         <p>Você é um explorador, viajando pelo deserto quando encontra as lendárias ruínas de Eldoria, uma cidade antiga e cheia de mistérios. Ao se aproximar da entrada, duas passagens surgem diante de você, cada uma levando para um caminho desconhecido.</p>
+
+         <button class="btn-proximo" data-proximo="1">Seguir pela passagem à esquerda</button>
+
+         <button class="btn-proximo" data-proximo="2">Seguir pela passagem à direita</button>
+
+       </div>
+
+       <div class="passo" id="passo-1">
+
+           <p>Você entra na passagem à esquerda, onde corredores escuros e paredes cobertas de inscrições antigas começam a tomar forma. Logo, você encontra uma sala iluminada por cristais flutuantes que parecem reagir à sua presença.</p>
+
+           <button class="btn-proximo" data-proximo="3">Tocar nos cristais brilhantes</button>
+
+           <button class="btn-proximo" data-proximo="4">Ignorar os cristais e continuar</button>
+
+       </div>
+
+       <div class="passo" id="passo-2">
+
+         <p>A passagem à direita o leva para um corredor íngreme que desce profundamente no solo. Você começa a ouvir sons estranhos ecoando, e logo encontra uma porta dourada com runas antigas brilhando suavemente.</p>
+
+         <button class="btn-proximo" data-proximo="5">Abrir a porta dourada</button>
+
+         <button class="btn-proximo" data-proximo="6">Seguir pelo corredor ignorando a porta</button>
+
+       </div>
+
+       <div class="passo" id="passo-3">
+
+         <p>Ao tocar nos cristais, uma energia poderosa flui pelo seu corpo. As inscrições nas paredes começam a brilhar e uma voz antiga sussurra segredos sobre um artefato escondido nas profundezas das ruínas.</p>
+
+         <button class="btn-proximo" data-proximo="7">Seguir as pistas até o artefato</button>
+
+         <button class="btn-proximo" data-proximo="4">Voltar e explorar outro caminho</button>
+
+      </div>
+
+        <div class="passo" id="passo-4">
+
+          <img src="img/cenario-passo4.png" alt="">
+
+            <p>Você decide ignorar os cristais e continua explorando as ruínas. No entanto, a energia mágica dos cristais enfraquece o ambiente ao seu redor, e você é tragado por um portal que o leva para um lugar desconhecido, sem como voltar.</p>
+
+          <p>fim</p>
+
+        </div>
+
+        <div class="passo" id="passo-5">
+
+            <p>Ao abrir a porta dourada, você se depara com uma sala repleta de estátuas antigas. No centro, uma grande estátua de um guerreiro segura uma espada reluzente. Um pedestal à sua frente parece ter espaço para algo valioso, mas está vazio.</p>
+
+            <button class="btn-proximo" data-proximo="7">Investigar a espada reluzente</button>
+
+            <button class="btn-proximo" data-proximo="6">Deixar a sala e continuar explorando</button>
+
+       </div>
+
+       <div class="passo" id="passo-6">
+
+         <p>Você continua pelo corredor e acaba encontrando uma sala oculta, onde uma tapeçaria gigante narra a história de uma civilização antiga. No fundo da sala, uma passagem secreta se revela.</p>
+
+         <button class="btn-proximo" data-proximo="8">Entrar na passagem secreta</button>
+
+      </div>
+
+      <div class="passo" id="passo-7">
+
+         <p>Seguindo as pistas, você encontra uma câmara antiga, onde um artefato poderoso está guardado. No entanto, a sala é protegida por uma série de armadilhas que exigem seu raciocínio rápido para escapar.</p>
+
+         <button class="btn-proximo" data-proximo="9">Desviar das armadilhas e pegar o artefato</button>
+
+         <button class="btn-proximo" data-proximo="10">Desistir e fugir antes que as armadilhas se ativem</button>
+
+      </div>
+
+      <div class="passo" id="passo-8">
+
+         <p>Você entra na passagem secreta e descobre uma cidade subterrânea escondida nas ruínas. Seres misteriosos vivem ali, guardando o conhecimento perdido de Eldoria.</p>
+
+         <button class="btn-proximo" data-proximo="7">Explorar a cidade subterrânea</button>
+
+     </div>
+
+     <div class="passo" id="passo-9">
+
+         <p>Você consegue desviar das armadilhas com agilidade e finalmente pega o artefato. No entanto, ao tocá-lo, o chão começa a tremer, e as ruínas começam a desmoronar. Você precisa fugir antes de ser soterrado.</p>
+
+         <button class="btn-proximo" data-proximo="11">Correr para a saída</button>
+
+    </div>
+
+    <div class="passo" id="passo-10">
+        <img src="img/cenario-passo10.png" alt="">
+
+         <p>Decidido a não correr mais riscos, você opta por sair da câmara sem pegar o artefato. As ruínas permanecem intactas, mas o segredo de Eldoria continua oculto nas profundezas.</p>
+         <p>fim</p>
+
+  </div>
+
+  <div class="passo" id="passo-11">
+
+     <img src="img/cenario-passo11.png" alt="">  
+
+     <p>Você corre para fora da câmara, carregando o artefato e escapando por pouco do desmoronamento. Agora, com o tesouro de Eldoria em mãos, você retorna ao mundo exterior, com novos mistérios para desvendar.</p>
+
+     <p>fim</p>
+
+</div>
+
+   </main>
+
+   <script src="script.js"></script>
+
+</body>
+
+</html>
